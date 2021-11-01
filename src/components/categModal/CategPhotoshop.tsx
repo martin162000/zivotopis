@@ -20,7 +20,7 @@ const CategPhotoshop = (props: Props) => {
         }}
       >
         <div className="modalHeader">
-          <h2>React</h2>
+          <h2>Photoshop</h2>
           <span onClick={closeModalHandler}>x</span>
         </div>
         <div className="modalContent">

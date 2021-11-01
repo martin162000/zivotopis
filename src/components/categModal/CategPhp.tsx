@@ -14,7 +14,7 @@ const CategPhp = (props: Props) => {
         }}
       >
         <div className="modalHeader">
-          <h2>React</h2>
+          <h2>Php</h2>
           <span onClick={closeModalHandler}>x</span>
         </div>
         <div className="modalContent">

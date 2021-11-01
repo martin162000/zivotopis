@@ -16,7 +16,7 @@ const CategJava = (props: Props) => {
         }}
       >
         <div className="modalHeader">
-          <h2>React</h2>
+          <h2>Java</h2>
           <span onClick={closeModalHandler}>x</span>
         </div>
         <div className="modalContent">

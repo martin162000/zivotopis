@@ -15,7 +15,7 @@ const CategNodejs = (props: Props) => {
         }}
       >
         <div className="modalHeader">
-          <h2>React</h2>
+          <h2>Nodejs</h2>
           <span onClick={closeModalHandler}>x</span>
         </div>
         <div className="modalContent">

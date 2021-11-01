@@ -17,7 +17,7 @@ const CategHtml = (props: Props) => {
       }}
     >
       <div className="modalHeader">
-        <h2>React</h2>
+        <h2>Html, javascript, css/scss</h2>
         <span onClick={closeModalHandler}>x</span>
       </div>
       <div className="modalContent">
