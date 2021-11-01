@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/zivotopis/static/css/main.40e9bac2.chunk.css",
-    "main.js": "/zivotopis/static/js/main.b3b2452b.chunk.js",
-    "main.js.map": "/zivotopis/static/js/main.b3b2452b.chunk.js.map",
+    "main.css": "/zivotopis/static/css/main.a5e73010.chunk.css",
+    "main.js": "/zivotopis/static/js/main.db2d344d.chunk.js",
+    "main.js.map": "/zivotopis/static/js/main.db2d344d.chunk.js.map",
     "runtime-main.js": "/zivotopis/static/js/runtime-main.eef8bf6c.js",
     "runtime-main.js.map": "/zivotopis/static/js/runtime-main.eef8bf6c.js.map",
     "static/js/2.efd0a7d8.chunk.js": "/zivotopis/static/js/2.efd0a7d8.chunk.js",
     "static/js/2.efd0a7d8.chunk.js.map": "/zivotopis/static/js/2.efd0a7d8.chunk.js.map",
     "index.html": "/zivotopis/index.html",
-    "static/css/main.40e9bac2.chunk.css.map": "/zivotopis/static/css/main.40e9bac2.chunk.css.map",
+    "static/css/main.a5e73010.chunk.css.map": "/zivotopis/static/css/main.a5e73010.chunk.css.map",
     "static/js/2.efd0a7d8.chunk.js.LICENSE.txt": "/zivotopis/static/js/2.efd0a7d8.chunk.js.LICENSE.txt",
     "static/media/javaIcon.75002cb5.png": "/zivotopis/static/media/javaIcon.75002cb5.png",
     "static/media/kurzMysql.83da2afb.png": "/zivotopis/static/media/kurzMysql.83da2afb.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.eef8bf6c.js",
     "static/js/2.efd0a7d8.chunk.js",
-    "static/css/main.40e9bac2.chunk.css",
-    "static/js/main.b3b2452b.chunk.js"
+    "static/css/main.a5e73010.chunk.css",
+    "static/js/main.db2d344d.chunk.js"
   ]
 }
