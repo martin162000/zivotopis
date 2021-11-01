@@ -1,0 +1,170 @@
+.firstColumn {
+    min-height: 968px;
+    margin: 0 17px;
+    background: #4f868f;
+    background: linear-gradient(#75cbcf , #4f868f ) fixed;
+    position: relative;
+
+    ul {
+        color:white;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        line-height: 2.2em;
+        font-size: 0.90em;
+        text-align: left;
+        margin-top: 12px;
+
+        span {
+            margin: 0 5px 0 0px;
+        }
+    }
+
+    .listInfo {
+        margin: 0;
+        font-weight: 300;
+    }
+
+    .columnBlock {
+        margin: 30px auto;
+ 
+
+        h2 {
+            color: white;
+            background: #353b42;
+            margin: 5px 25px;
+            font-weight: 400;
+            font-size: 1.05em;
+            padding: 5px 0 5px;
+            text-transform: uppercase;
+        }
+        
+        .insideMarg {
+            margin: 0px 25px;
+            padding-left: 3px;
+        }    
+
+        h4 {
+            margin: 20px 0px 0px 0px;
+            color: white;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .eduText {
+            margin: 5px 0px 0px 0px;
+            color: white;
+            font-weight: 400;
+        }
+
+        .eduSection {
+            margin: 0;
+            font-weight: 300;
+            color: white;
+            margin: 2px 0px 0px 0px;
+            font-size: 0.78em;
+        }
+
+        .margTopEduDiv {
+            margin-top: 25px;
+        }
+
+        .languages{
+            h4 {
+                font-size: 0.79em;
+            }
+
+            .lightFont {
+                font-size: 1em;
+            }
+        }
+
+
+        p {
+            color:white;
+            font-size: 0.85em;
+            font-weight: 300;
+            margin: 1.3em 0;
+        }
+
+
+    }
+
+
+    .columnBlock:last-child {
+       // margin: 60px auto 30px;
+        position: absolute;
+        bottom: 20px;
+        margin: 0;
+        width: 100%;
+
+        .insideMarg {
+            padding: 0;
+        }
+    }
+
+    .gridIcons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        @media (max-width: 880px) {
+            grid-template-columns: 1fr;
+            gap: 30px;
+          }
+
+          @media (max-width: 624px) {
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+      }
+
+
+        div {
+            text-align: center;
+        }
+
+        svg  {
+            width: 2.65em;
+            height: 2.65em;
+            color: #353b42;
+            cursor: pointer;
+            transition: all 0.3s;
+
+
+            @media (max-width: 880px) {
+                width: 3em;
+                height: 4em;
+              }
+    
+              @media (max-width: 624px) {
+                height: 7.5em;
+                width: 3.5em;
+          }
+
+          &:hover,
+          &:focus {
+            transform: scale(1.20);
+            color: white;
+          }
+        }
+    }
+
+    .dot {
+            height: 6px;
+            width: 6px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+            margin-left: 2px;
+            margin-bottom: 2px;
+      }
+
+
+      @media (max-width: 624px) {
+            margin-top: 200px;
+      }
+
+
+  }
+
+

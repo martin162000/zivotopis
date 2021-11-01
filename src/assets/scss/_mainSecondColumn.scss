@@ -1,0 +1,180 @@
+.mainTitle {
+    h1{
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 45px 0 10px;
+    }
+    
+    h5 {
+        color: #7adfe5;
+        font-weight: 400;
+        font-size: 1em;
+        margin: 0;
+        text-transform: uppercase;
+        margin-bottom: 95px;
+    }
+
+    @media (max-width: 624px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+
+
+}
+
+.secondColumn {
+    @media (max-width: 624px) {
+        margin-left: 17px;
+        margin-top: 20px;
+      }
+}
+
+.mainBlock {
+
+    text-align: left;
+    margin-bottom: 40px;
+
+
+    .praxGrid {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 30px;
+        margin-left: 8px;
+
+        @media (max-width: 880px) {
+            grid-template-columns: 1fr;
+          }
+
+        p:nth-of-type(1) {
+            margin: 7px 0 2px;
+            font-size: 0.95em;
+            font-weight: 600;
+            color: #353b42;
+        }
+    
+        p:nth-of-type(2) {
+            margin: 0;
+           // font-weight: 300;
+        }
+
+        div:nth-of-type(2) {
+            //justify-self: end;
+            margin-left: 8px;
+            @media (max-width: 880px) {
+                justify-self: start;
+                margin-left: 0px;
+                margin-top: 18px;
+              }
+          }
+
+    }
+
+    .courseGrid {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 30px;
+        margin-left: 8px;
+
+        @media (max-width: 880px) {
+            grid-template-columns: 1fr;
+          }
+
+        .secDiv {
+
+            //justify-self: end;
+
+            @media (max-width: 880px) {
+                justify-self: start;
+              }
+
+        }
+
+        p {
+            margin: 4px 0 15px 6px;
+        }
+
+        h4 {
+            font-size: 0.90em;
+        }
+
+        svg {
+
+            position: relative;
+            top: 2px;
+            padding: 0px 5px;
+            color: #66afb5;
+            transition: all 0.1s;
+
+            &:hover,
+            &:focus {
+                color:darken(#66afb5, 20%);
+                cursor: pointer;
+                transform: scale(1.15);
+            }
+        }
+    }
+
+
+    h2 {
+        background: #353b42;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 3px 10px;
+        font-size: 1.00em;
+        margin-right: 17px;
+    }
+
+    h4 {
+        margin: 4px 0;
+        color: #353b42;
+    }
+
+    .experiences {
+
+        margin-right: 18px;
+        margin-top: 20px;
+
+        img {
+            width: 14px;
+            position: absolute;
+            left: 6px;
+            top: 12px;
+            height: auto;
+        }
+
+        span.plus {
+            position: absolute;
+            right: 10px;
+            font-size: 1.5em;
+            top: 3px;
+            font-weight: 300;
+            color: #4f868f;
+        }
+
+        div {
+            position: relative;
+            color: #353b42;
+            border: 1px solid #dce1e3;
+            padding: 5px 25px;
+            background: lighten(#eff4f5, 3%);
+            margin: 7px 0;
+            box-sizing: border-box;
+            cursor: pointer;
+            transition: all 0.2s;
+
+            &:hover,
+            &:focus {
+                background: darken(#eff4f5, 15%);
+                transform: scale(1.02);
+                border: 1px solid darken(#dce1e3, 25%);
+            }
+        }
+    }
+
+}
