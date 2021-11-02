@@ -33,12 +33,11 @@ export const Modal = ({ show, type }:any) => {
 
     setTimeout(() => {
       modal.style.display = 'none';
+      elm.style.display = 'none';
     }, 300);
 
 
     setTimeout(() => {
-      elm.style.display = 'none';
-      modal.style.display = 'none';
       setValue("");
       elm.classList.remove("fadeOut");
     }, 350);

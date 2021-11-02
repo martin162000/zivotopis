@@ -24,11 +24,11 @@ function App() {
 
     setTimeout(() => {
       modal.style.display = 'none';
+      backDropRef.current.style.display = 'none';
       
     }, 300);
 
     setTimeout(() => {
-      backDropRef.current.style.display = 'none';
       setValue("");
 
       backDropRef.current.classList.remove("fadeOut");
