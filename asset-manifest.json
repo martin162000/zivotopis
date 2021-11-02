@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zivotopis/static/css/main.a5e73010.chunk.css",
-    "main.js": "/zivotopis/static/js/main.f49a0d5b.chunk.js",
-    "main.js.map": "/zivotopis/static/js/main.f49a0d5b.chunk.js.map",
+    "main.js": "/zivotopis/static/js/main.f3db0a89.chunk.js",
+    "main.js.map": "/zivotopis/static/js/main.f3db0a89.chunk.js.map",
     "runtime-main.js": "/zivotopis/static/js/runtime-main.eef8bf6c.js",
     "runtime-main.js.map": "/zivotopis/static/js/runtime-main.eef8bf6c.js.map",
     "static/js/2.efd0a7d8.chunk.js": "/zivotopis/static/js/2.efd0a7d8.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.eef8bf6c.js",
     "static/js/2.efd0a7d8.chunk.js",
     "static/css/main.a5e73010.chunk.css",
-    "static/js/main.f49a0d5b.chunk.js"
+    "static/js/main.f3db0a89.chunk.js"
   ]
 }
