@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zivotopis/static/css/main.a5e73010.chunk.css",
-    "main.js": "/zivotopis/static/js/main.f5dac215.chunk.js",
-    "main.js.map": "/zivotopis/static/js/main.f5dac215.chunk.js.map",
+    "main.js": "/zivotopis/static/js/main.6bc8f1f1.chunk.js",
+    "main.js.map": "/zivotopis/static/js/main.6bc8f1f1.chunk.js.map",
     "runtime-main.js": "/zivotopis/static/js/runtime-main.eef8bf6c.js",
     "runtime-main.js.map": "/zivotopis/static/js/runtime-main.eef8bf6c.js.map",
     "static/js/2.efd0a7d8.chunk.js": "/zivotopis/static/js/2.efd0a7d8.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/logoPs2.9d216ea3.png": "/zivotopis/static/media/logoPs2.9d216ea3.png",
     "static/media/logoPs3.991e7994.png": "/zivotopis/static/media/logoPs3.991e7994.png",
     "static/media/movieApp.a4522964.png": "/zivotopis/static/media/movieApp.a4522964.png",
+    "static/media/movieAppUpdateVersion.7be04ee0.png": "/zivotopis/static/media/movieAppUpdateVersion.7be04ee0.png",
     "static/media/movieAppWithBackend.16cfc9e5.png": "/zivotopis/static/media/movieAppWithBackend.16cfc9e5.png",
     "static/media/mysqlIcon.00a33710.png": "/zivotopis/static/media/mysqlIcon.00a33710.png",
     "static/media/nodejsIcon.85fedea5.png": "/zivotopis/static/media/nodejsIcon.85fedea5.png",
@@ -33,6 +34,6 @@
     "static/js/runtime-main.eef8bf6c.js",
     "static/js/2.efd0a7d8.chunk.js",
     "static/css/main.a5e73010.chunk.css",
-    "static/js/main.f5dac215.chunk.js"
+    "static/js/main.6bc8f1f1.chunk.js"
   ]
 }
