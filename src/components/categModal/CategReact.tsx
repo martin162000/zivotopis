@@ -5,6 +5,7 @@ import movieAppBackend from '../../assets/img/reactApps/movieAppWithBackend.png'
 import utulky from '../../assets/img/reactApps/utulkyApp.png';
 import reminderApp from '../../assets/img/reactApps/reminderApp.png';
 import zivotopisApp from '../../assets/img/reactApps/zivotopisApp.png';
+import movieAppUpdated from '../../assets/img/reactApps/movieAppUpdateVersion.png'
 
 interface Props {
     show :any;
@@ -54,7 +55,23 @@ const CategReact = (props: Props) => {
                </div>
 
                <div className="apps">
-                  <h5>2.Movie app + Nodejs + MySQL</h5>
+                  <h5>2.Movie app (zadanie Sigp.eu) </h5>
+                  <p> Vypracoval som zadanie z firmy Sigp.eu. Pracoval som na ňom 2 aj pol dňa.
+                    Celé zadanie je na mojom githube v "README.md", ktoré nájdete, keď kliknete na "Zobraziť zdrojový kód".
+                    Frontend som si musel navrhnúť sám. Použil som knižnicu Ant Design.
+                    O data manažment sa stará react-redux / redux saga.</p>
+                  <p className="usesLib">Použil som React-redux, Redux saga, Route, Axios, Ant Design, LocalStorage</p>
+                  <div className="gridButtons">
+                    <img src={movieAppUpdated} alt="Movie app img" />
+                      <div>
+                          <div className="btnBlock"><a href="https://martin162000.github.io/sigp-app/" className="btn" target="_blank" rel="noopener noreferrer"> Zobraziť aplikáciu</a></div>
+                          <div className="btnBlock"><a href="https://github.com/martin162000/sigp-app" className="btn btnSec" target="_blank" rel="noopener noreferrer"> Zobraziť zdrojový kód</a></div>
+                      </div>
+                 </div>
+               </div>
+
+               <div className="apps">
+                  <h5>3.Movie app + Nodejs + MySQL</h5>
                   <p> Je to tá istá aplikácia ako predchádzajúca (Movie app), lenže
                     pridal som k nej backend, ktorý som programoval v Nodejs a databázu som urobil v MySQL.
                     Teraz sa do aplikácie môže zaregistrovať uživateľ, potom sa príhlásiť, editovať svoj profil (zmena emailu / hesla), môže pridávať filmy na svoj účet (aj ich zmazať)
@@ -70,7 +87,7 @@ const CategReact = (props: Props) => {
                </div>
 
                <div className="apps">
-                  <h5>3.Utulky (zadanie GoodRequest.com)</h5>
+                  <h5>4.Utulky (zadanie GoodRequest.com)</h5>
                   <p> Dostal som zadanie z firmy Goodrequest.com, ktoré som vypracoval za 5 dni. 
                      Celé zadanie je na mojom githube v "README.md", ktoré nájdete, keď kliknete na "Zobraziť zdrojový kód".
                      Návrh frontendu som dostal figma.com.
@@ -87,7 +104,7 @@ const CategReact = (props: Props) => {
             </div>
   
                <div className="apps">
-                  <h5>4.Reminder app</h5>
+                  <h5>5.Reminder app</h5>
                   <p> Použivateľ si môže vytvoriť príspevok, tento príspevok neskôr môže upravovať alebo
                      ho môže aj vymazať. Pri tejto aplikácii som sa snažil nepoužiť React-redux, pretože som chcel 
                      presnejšie pochopiť, ako prebieha menenie stavu
@@ -104,7 +121,7 @@ const CategReact = (props: Props) => {
             </div>
   
             <div className="apps">
-                  <h5>5.Životopis</h5>
+                  <h5>6.Životopis</h5>
                   <p> Vytvoril som svoj vlastný životopis v reacte.</p>
                   <p className="usesLib">Použil som Context, Bootstrap icons</p>
                   <div className="gridButtons">
